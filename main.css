@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #40e0d0;
+  font-family: Verdana;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: white;
+  min-height: 100px;
+  width: 522px;
+  margin: 100px auto;
+  border-radius: 2px;
+  height: auto;
+}
+
+.base{
+width: 522px;
+background-color: #239d91;
+position: center;
+margin-bottom: 10px ;
+height: 100%;
+overflow: hidden;
+padding: 10px;
+}
+
+
+.heading {
+  font-size: 26px;
+  text-align: center;
+  font-family: Verdana;
+  margin-top: 0px;
+  font-weight: 900;
+  color: rgb(0, 107, 128);
+  background: white;
+  padding: 8px;
+}
+
+.block{
+  width: 135px;
+  padding: 30px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+
+}
+
+.title{
+font-size: 16px;
+text-align: center;
+font-family: Verdana;
+font-weight: 900;
+letter-spacing: 0.5px;
+color: gray;
+word-spacing: 2.7px;
+}
+
+
+input[type=text]{
+  width: 140px;
+  margin: auto;
+  outline: none;
+  min-height: 60px;
+  border: 2px solid gray;
+  border-radius: 2px;
+  color: rgb(0, 188, 192);
+  font-size: 20px;
+  padding: 12px
+}
+
+
+input[type=text]:focus{
+  background: white;
+  border: 2px solid rgb(192, 206, 255);
+}
+
+input[type=button]{
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 170px;
+  margin-bottom: 36px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: #40e0d0;
+  padding: 14px 16px;
+  color: white;
+  font-size: 17px;
+}
+
+input[type=button]:hover{
+  background-color: #0c1c1b;
+}
+
+
+.age{
+  display: block;
+  text-align: center;
+  margin: 10px;
+  margin-top: 35px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  font-family: Verdana;
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 1.5;
+  word-spacing: 2.7px;
+  color: rgb(0, 40, 59);
+  padding: 10px;
+}
